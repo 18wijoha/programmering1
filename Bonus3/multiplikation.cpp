@@ -10,16 +10,15 @@ int main() {
 	cout << "Skriv ett tal mellan 1-12" << endl;
 	cin >> tal1;
 	
-	while(tal1 < 1 && tal1 > 12) {
+	while(tal1 < 1 || tal1 > 12) {
 		cout << "Försök igen." << endl;
+		cin >> tal1;
 	}
-	cout << "Okej";
 	
-	while(tal1 >= 1 && tal1 <= 12) {
-		for(int i = 0; i > 11; i++) {
+		for(int i = 0; i < 11; i++) {
 			tal2 = tal1 * i;
-			cout << tal1 << " * " << i << " = " << tal2;
+			cout << tal1 << " * " << i << " = " << tal2 << endl;
 		}
-	}
+
 	return 0;
 }
