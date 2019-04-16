@@ -1,6 +1,6 @@
 [Project]
-FileName=multiplikation.dev
-Name=multiplikation
+FileName=Nej du heter....dev
+Name=Nej du heter...
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=0
+UnitCount=1
 
 [VersionInfo]
 Major=1
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=..\Bonus3\multiplikation.cpp
+FileName=nej du heter....cpp
 CompileCpp=1
 Folder=
 Compile=1
