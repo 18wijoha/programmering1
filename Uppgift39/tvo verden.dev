@@ -1,6 +1,6 @@
 [Project]
-FileName=instickare.dev
-Name=instickare
+FileName=tvo verden.dev
+Name=tvo verden
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=instickare.cpp
+FileName=..\Uppgift40\main.cpp
 CompileCpp=1
 Folder=
 Compile=1

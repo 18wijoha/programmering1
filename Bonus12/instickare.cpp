@@ -29,7 +29,7 @@ int main() {
 	
 	cout << endl;
 	
-	array[0] = ny;
+	array[position] = ny;
 	
 	for(int i = 0; i < 7; i++) {
 		cout << array[i] << endl;

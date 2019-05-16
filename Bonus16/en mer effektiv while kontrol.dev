@@ -1,6 +1,6 @@
 [Project]
-FileName=instickare.dev
-Name=instickare
+FileName=en mer effektiv while kontrol.dev
+Name=en mer effektiv while kontrol
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=instickare.cpp
+FileName=en mer effektiv while kontrol.cpp
 CompileCpp=1
 Folder=
 Compile=1

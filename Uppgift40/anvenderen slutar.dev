@@ -1,6 +1,6 @@
 [Project]
-FileName=instickare.dev
-Name=instickare
+FileName=anvenderen slutar.dev
+Name=anvenderen slutar
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=instickare.cpp
+FileName=..\Uppgift39\anvenderen slutar.cpp
 CompileCpp=1
 Folder=
 Compile=1
