@@ -5,9 +5,9 @@ using namespace std;
 
 int heltal;
 
-int increaseFunction() {
-	heltal = heltal + 2;
-	cout << heltal;
+int increaseFunction(int tal) {
+	tal = tal + 2;
+	cout << tal;
 }
 	
 int main(int argc, char** argv) {
@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 	cout << "Skriv ett heltal" << endl;
 	cin >> heltal;
 	
-	increaseFunction();
+	increaseFunction(heltal);
 	
 	return 0;
 }

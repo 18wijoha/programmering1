@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 	
 	srand(time(NULL));
 	
-	for(int i = 0; i < 6; i++) {
+	for(int i = 0; i < 6; i++) { 
 		tal = rand()%(tal2-tal1 + 1) + tal1;
 		cout << tal << endl;
 	}

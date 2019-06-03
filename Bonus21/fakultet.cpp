@@ -3,21 +3,24 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
 
-int heltal, heltal2, svar;
+int sum, heltal;
 
-int increaseFunction(int tal, int tal2) {
-	
-	svar = tal + tal2;
+summa(int tal) {
+	if(tal == 1) {
+	    sum = 1;
+	} else {
+		sum = tal * summa(tal-1);
+	}
+	return sum;
 }
-	
+
 int main(int argc, char** argv) {
 	
-	cout << "Skriv två heltal" << endl;
+	cout << "Skriv in ett heltal" << endl;
 	cin >> heltal;
-	cin >> heltal2;
 	
-	increaseFunction(heltal,heltal2);
+	summa(heltal);
+	cout << sum;
 	
-	cout << svar;
 	return 0;
 }

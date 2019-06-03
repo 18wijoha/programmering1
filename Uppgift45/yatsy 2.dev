@@ -1,6 +1,6 @@
 [Project]
-FileName=yatsy.dev
-Name=yatsy
+FileName=yatsy 2.dev
+Name=yatsy 2
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=yatsy.cpp
+FileName=yatsy 2.cpp
 CompileCpp=1
 Folder=
 Compile=1
