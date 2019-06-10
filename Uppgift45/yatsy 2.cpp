@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
    		cout << "Välj tärning: 1 - 5" << endl;
      	cin >> dice;
 	
-    	tal[dice] = rand()%(tal2-tal1 + 1) + tal1;
+    	tal[dice - 1] = rand()%(tal2-tal1 + 1) + tal1;
     	
     	cout << endl;
     	
